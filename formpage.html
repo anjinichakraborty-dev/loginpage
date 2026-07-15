@@ -1,0 +1,67 @@
+<html>
+<head>
+<style>
+h1 {color:red;
+    border: 3px solid darkred;
+    padding: 15px;}
+p  {color:darkred;}
+a:link{border-radius: 30px;
+       background-color: darkred;
+       color: white;
+       padding: 5px 15px;
+       text-align: center;
+       text-decoration: none;
+       display: inline-block;}
+a:visited{border-radius: 30px;
+       background-color: darkred;
+       color: white;
+       padding: 5px 15px;
+       text-align: center;
+       text-decoration: none;
+       display: inline-block;}
+a:hover, a:active {
+  background-color: #21b5b0 ;
+}
+</style>
+</head>
+
+<body style= "background-color:lightred">
+
+<title>
+Questions!
+</title>
+<link rel="icon" type="image/png" href="wind.png" />
+<body style="background-color:white">
+<h1 style="font-size:50px;color:black;font-family:Helvetica"> IMPROVEMENT FORM</h1>
+<hr>
+
+<form action="canvas.html" method="post">
+
+<a href="#NAME">Jump to name</a>
+<a href="#SQUAL">Jump to service quality</a>
+<a href="#PROD">Jump to product bought</a>
+
+<h1 id="NAME">What is your name?</h1>
+<label for="name">name: </label>
+  <input type="text" id="name" name="name" required><br>
+
+<h1 id="SQUAL"> How was the quality of our service today?</h1>
+  <input type="checkbox" id="Job" name="Job" value="great">
+  <label for="Job"> The service was excellent! I will be using this again.</label><br>
+  <input type="checkbox" id="Job2" name="Job2" value="mediocre">
+  <label for="Job2">The service was okay. I might use it again later.</label><br>
+  <input type="checkbox" id="Job3" name="Job3" value="bad">
+  <label for="Job3">The service was HORRIBLE. I'm never using it AGAIN I hope your company EXPLODES</label><br>
+    
+  <h1 id="PROD">Which product did you buy?</h1>
+  <input type="radio" id="age1" name="age" value="liquid">
+  <label for="age1"> 32 in 1 miracle liquid!</label><br>
+  <input type="radio" id="age2" name="age" value="ball">
+  <label for="age2"> Human sized hamster ball </label><br>  
+  <input type="radio" id="age3" name="age" value="glas">
+  <label for="age3"> Calculator Glasses </label><br>
+  <br>
+ 
+   <button type="submit" style="font-size:10px;color:white;background-color:darkred;padding: 5px 15px"> Submit </button>
+</form>
+  
