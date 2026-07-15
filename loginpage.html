@@ -52,8 +52,10 @@ Login Page!
     <script>
         if name == "User."{
            let x = x+1
-        }else{
+        }
+        else{
             let x = x
+        }
     </script>
     <br>
 
@@ -62,20 +64,23 @@ Login Page!
     <script>
         if name == "pass."{
            let x = x+1
-        }else{
+        }
+        else{
             let x = x
+        }
     </script>
     <br>
 
    <a href="loginpage.html" onclick="doClick(); return false; "> login</a>
    <script>
        function doClick(){
-           if x == 2
+           if x == 2{
                window.location.href = "formpage.html";
-           
-           else
+           }
+           else{
                window.location.href = "loginpage.html"
            }
+       }
    </script>
     <label>
       <input type="checkbox" checked="checked" name="remember"> Remember me
