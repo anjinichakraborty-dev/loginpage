@@ -39,21 +39,44 @@ Login Page!
 
 <body style= "background-color:lightblue">
 
-<form action="formpage.html" method="post">
+
   <div class="imgcontainer">
     <img src="avatar.png" alt="Avatar" class="avatar">
   </div>
-
+  <script>
+      let x=0
+  </script>
   <div class="container">
     <label for="uname"><b>Username</b></label>
     <input type="text" placeholder="Enter Username" name="uname" required><br>
+    <script>
+        if name == "User."{
+           let x = x+1
+        }else{
+            let x = x
+    </script>
     <br>
 
     <label for="psw"><b>Password</b></label>
     <input type="password" placeholder="Enter Password" name="psw" required><br>
+    <script>
+        if name == "pass."{
+           let x = x+1
+        }else{
+            let x = x
+    </script>
     <br>
 
-    <button type="submit">Login</button>
+   <a href="loginpage.html" onclick="doClick(); return false; "> login</a>
+   <script>
+       function doClick(){
+           if x == 2
+               window.location.href = "formpage.html";
+           
+           else
+               window.location.href = "loginpage.html"
+           }
+   </script>
     <label>
       <input type="checkbox" checked="checked" name="remember"> Remember me
     </label>
