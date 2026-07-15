@@ -39,7 +39,7 @@ Login Page!
 
 <body style= "background-color:lightblue">
 
-
+<form action="formpage.html" method="post">
   <div class="imgcontainer">
     <img src="avatar.png" alt="Avatar" class="avatar">
   </div>
@@ -49,39 +49,15 @@ Login Page!
   <div class="container">
     <label for="uname"><b>Username</b></label>
     <input type="text" placeholder="Enter Username" name="uname" required><br>
-    <script>
-        if (uname == "User."){
-           let x = x+1
-        }
-        else{
-            let x = x
-        }
-    </script>
+    
     <br>
 
     <label for="psw"><b>Password</b></label>
     <input type="password" placeholder="Enter Password" name="psw" required><br>
-    <script>
-        if (psw == "pass."){
-           let x = x+1
-        }
-        else{
-            let x = x
-        }
-    </script>
+   
     <br>
 
-   <a href="loginpage.html" onclick="return doClick();"> login</a>
-   <script>
-       function doClick(){
-           if( x == 2){
-               window.location.href = "formpage.html";
-           }
-           else{
-               window.location.href = "loginpage.html"
-           }
-       }
-   </script>
+   <button type="submit">Login</button>
     <label>
       <input type="checkbox" checked="checked" name="remember"> Remember me
     </label>
